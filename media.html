@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+
+<body>
+    <!--header of the page-->
+    <header>
+        <h1>Media in HTML</h1>
+        <h2>Audio &amp; Video</h2>
+    </header>
+    <!--main section of the page-->
+    <main>
+        <!--audio section-->
+        <section>
+            <audio src="a.mp3" controls>your browser does not support the audio element</audio><br>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                <source src="audio.ogg" type="audio/ogg">
+                <source src="audio.wav" type="audio/wav">
+                your browser does not support audio.
+            </audio><br>
+        </section>
+        <!--video section-->
+        <section>
+            <video src="video.mp4" width="500" height="466" controls>your browser does not support the video
+                element</video>
+            <video controls width="500" height="466">
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                <source src="movie.webm" type="video/webm">
+                your browser does not support video.
+            </video>
+        </section>
+    </main>
+
+</body>
+
+</html>

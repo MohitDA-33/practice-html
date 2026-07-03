@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advanced form</title>
+</head>
+<body>
+    <h1>form</h1>
+    <form action="backend.php">
+        <!--basic form structure includes- username, password and name-->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="username">Username</label>
+        <input type="email" id="username" name="username"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="cpassword">Confirm password</label>
+        <input type="password" id="cpassword" name="cpassword"><br>
+        <!-- advanced form - radio buttons , checkboxes , text area , select option-->
+         <p>choose your gender</p>
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="gender" value="female">
+         <Label for="female">Female</Label>
+         <input type="radio" id="Other" name="gender" value="Other">
+         <Label for="Other">Other</Label><br>
+
+         <P>choose your hobbies</P>
+         <input type="checkbox" id="sports" name="sports" value="sports">
+         <label for="sports">sports</label>
+         <input type="checkbox" id="cooking" name="cooking" value="cooking">
+         <label for="cooking">Cooking</label>
+         <input type="checkbox" id="coding" name="coding" value="coding">
+         <label for="coding">Coding</label><br><br>
+
+         <label for="city">Choose Your City:</label>
+         <select id="city" name="city">
+            <option value="delhi">Delhi</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="ayodhya">Ayodhya</option>
+         </select><br><br>
+
+         <label for="feedback">type here:</label>
+         <textarea name="feedback" id="feedback" rows="4" cols="25"></textarea><br><br>
+        
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
